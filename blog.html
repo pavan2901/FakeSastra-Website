@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content= "with=device-width, initialscale=1.0">
+   <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Index1.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Index1.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact-us.html">CONTACT</a></li>
+                
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Online Programs available for students</h1>
+</section>
+    
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="Images/certificate.jpg">
+                <h2>Online programs for our students</h2>
+                <p>We here in SASTRA believe in Tagorean concept of "The Home and the World", keeping in mind, the vital importance of empowering women, by giving them their rightful place in national development.</p>
+                <br>
+                <p>SASTRA earnestly endeavours to be among the best and utilizes opportunities for the overall improvement of higher education, training, and research & development. With a strong and deep commitment and a genuine desire to fulfil the aspirations of a growing, fast-developing society, SASTRA has been contributing significantly towards the realization of the National goal of envisioning India 2020.</p>
+                <br>
+                <p>SASTRA is committed to excellence with a holistic approach and has consistently maintained the highest standards in "a man-making education" in the immortal words of Swami Vivekananda, which can only be ensured by quality teaching of the finest calibre</p>
+                
+                <div class="comment">
+                    <h3>Share your comments</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter email!">
+                        <textarea rows="5" placeholder="Your comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">Post cmt</button>
+                    </form>
+                 </div>
+                
+            </div>
+            <div class="blog-right">
+                <h3>Post categories</h3>
+                <div>
+                    <span>Buisness analytics</span>
+                    <span>21</span>
+                </div>
+                 <div>
+                    <span>Data science</span>
+                    <span>22</span>
+                </div>
+                 <div>
+                    <span>Python Programming</span>
+                    <span>23</span>
+                </div>
+                 <div>
+                    <span>Artificial Intelligence</span>
+                    <span>24</span>
+                </div>
+                 <div>
+                    <span>Automation</span>
+                    <span>25</span>
+                </div>
+            
+            </div>
+        
+        
+        </div>
+    
+    </section>
+    
+     
+    
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>SASTRA is committed to excellence with a holistic approach and has consistently maintained the highest standards in "a man-making education" in the immortal words of Swami Vivekananda, which can only be ensured by quality teaching of the finest calibre. We here in SASTRA believe in Tagorean concept of "The Home and the World", keeping in mind, the vital importance of empowering women, by giving them their rightful place in national development.</p>
+   </section>
+    
+    
+    
+   
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+            }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+        
+    </script>
+
+</body>
+</html>

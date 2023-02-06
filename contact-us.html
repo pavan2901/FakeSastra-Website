@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content= "with=device-width, initialscale=1.0">
+   <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Index1.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Index1.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact-us.html">CONTACT</a></li>
+                
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact-us</h1>
+</section>
+    
+    <section class="location">
+    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15680.309633046752!2d79.00965632588995!3d10.728512977663847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baabe2803211597%3A0x6371e96c202331c!2sSASTRA%20Deemed%20University!5e0!3m2!1sen!2sin!4v1675626539526!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    </section>
+    
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div >
+                    <h1>Home</h1>
+                    <span>
+                        <h5>Thirumalaisamudram</h5>
+                        <p>thanjavur, TamilNadu</p>
+                    </span>
+                </div>
+                <div >
+                    <h1>Ph.No</h1>
+                    <span>
+                        <h5>+91 4362 264101 - 108</h5>
+                        <p>Monday to Saturday , 9AM to 5PM</p>
+                    </span>
+                </div>
+                 <div >
+                    <h1>Email</h1>
+                    <span>
+                        <h5>admissionssastra.edu</h5>
+                        <p>Feel free to ask any queries through our email!</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+            
+                    <form action="form.php" method="post">
+                        <input type="text" name="name" placeholder="Enter your Name"required>
+                        <input type="email" name="email" placeholder="Enter your email"required>
+                        <input type="text" name="subject" placeholder="Enter your subject"required>
+                        <textarea rows="8" name="messsgae" placeholder="Message" required></textarea>
+                        <button type="Submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+            </div>
+            
+        </div>
+    
+    
+    </section>
+    
+    
+    
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>SASTRA is committed to excellence with a holistic approach and has consistently maintained the highest standards in "a man-making education" in the immortal words of Swami Vivekananda, which can only be ensured by quality teaching of the finest calibre. We here in SASTRA believe in Tagorean concept of "The Home and the World", keeping in mind, the vital importance of empowering women, by giving them their rightful place in national development.</p>
+   </section>
+    
+    
+    
+   
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+            }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+        
+    </script>
+
+</body>
+</html>

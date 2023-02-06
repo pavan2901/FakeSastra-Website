@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content= "with=device-width, initialscale=1.0">
+   <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Index1.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Index1.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact-us.html">CONTACT</a></li>
+                
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+</section>
+    
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are one the top colleges around the world and best colleg in south India</h1>
+                <p>SASTRA has carved a niche for itself as a Centre for fostering and developing the body, mind and spirit of its students. SASTRA is totally committed to this three–fold flowering of the students entrusted to its care. Our blend of academic excellence and real world experience with moral values has earned SASTRA, National recognition.SASTRA earnestly endeavours to be among the best and utilizes opportunities for the overall improvement of higher education, training, and research & development.</p>
+                <a href="" class="hero-btn red-btn">Explore for more..</a>
+            </div>
+                <div class="about-col">
+                    <img src="Images/about.jpg">
+                </div>
+           
+        </div>
+    </section>
+    
+    
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>SASTRA is committed to excellence with a holistic approach and has consistently maintained the highest standards in "a man-making education" in the immortal words of Swami Vivekananda, which can only be ensured by quality teaching of the finest calibre. We here in SASTRA believe in Tagorean concept of "The Home and the World", keeping in mind, the vital importance of empowering women, by giving them their rightful place in national development.</p>
+   </section>
+    
+    
+    
+   
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+            }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+        
+    </script>
+
+</body>
+</html>
